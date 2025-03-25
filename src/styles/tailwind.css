@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@layer base {
+  :root {
+    /* Primary Color Palette */
+    --primary-50: #f0f5ff;
+    --primary-100: #e0ebff;
+    --primary-200: #c7d9ff;
+    --primary-300: #a4beff;
+    --primary-400: #7896ff;
+    --primary-500: #4f70ff;
+    --primary-600: #3a56f0;
+    --primary-700: #1a56db;
+    --primary-800: #1e429f;
+    --primary-900: #1e3b8a;
+    --primary-950: #172554;
+    
+    /* Secondary Color Palette */
+    --secondary-50: #ecfdf5;
+    --secondary-100: #d1fae5;
+    --secondary-200: #a7f3d0;
+    --secondary-300: #6ee7b7;
+    --secondary-400: #34d399;
+    --secondary-500: #14b8a6;
+    --secondary-600: #0d9488;
+    --secondary-700: #0f766e;
+    --secondary-800: #115e59;
+    --secondary-900: #134e4a;
+    --secondary-950: #042f2e;
+  }
+
+  .dark {
+    /* Dark mode overrides if needed */
+    --primary-700: #3a56f0;
+    --secondary-500: #0d9488;
+  }
+}
+
+@layer utilities {
+  :root {
+    --color-primary: #0b2347;
+  }
+}
